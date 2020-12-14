@@ -1,0 +1,12 @@
+<web-app>
+<servlet>
+<servlet-name>second</servlet-name>
+<servlet-class>com.mvc.LoginController</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>second</servlet-name>
+<url-pattern>/doctor_Login</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
